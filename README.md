@@ -1,4 +1,4 @@
-# Device tree for the Infinix Note 30 (X6833B)
+# Device tree for the Tecno Camon 20 Pro 5g(CK8n)
 
 ## Device specifications
 
