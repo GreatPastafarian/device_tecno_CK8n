@@ -186,6 +186,5 @@ DEVICE_MATRIX_FILE := $(CONFIGS_PATH)/vintf/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(CONFIGS_PATH)/vintf/manifest.xml
 
 
-
 # Inherit the proprietary files
 include vendor/tecno/CK8n/BoardConfigVendor.mk
