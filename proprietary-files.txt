@@ -571,13 +571,11 @@ vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so
 vendor/lib/vendor.transsion.hardware.trancam.trancamserver@1.0.so
 vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
-vendor/lib64/hw/android.hardware.camera.device@3.6.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.frhandler@1.0.so
-
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/gc02m1_mipi_raw_IdxMgr.so
 vendor/lib64/gc02m1_mipi_raw_tuning.so
@@ -849,6 +847,7 @@ vendor/lib64/libCamera_s5kgwbswmipiraw_Video_Zoom2.so
 vendor/lib64/libImageEval.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libNvLutEffect_arm64-v8a.so
+vendor/lib64/libMegviiHum.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libSonyIMX230PdafLibrary.so
 vendor/lib64/libSonyIMX230PdafLibraryWrapper.so
@@ -912,8 +911,6 @@ vendor/lib64/libanc_hdr_adapter_s5kgd2sp_17201766_front_d1300.so
 vendor/lib64/libanc_hdr_adapter_s5kgwbsw_17201839_back_d1300.so
 vendor/lib64/libancbase.so
 vendor/lib64/libancbase_848.so
-vendor/lib64/libarcsoft_high_dynamic_range.so
-vendor/lib64/libarcsoft_low_light_hdr.so
 vendor/lib64/libarcsoft_night_hawk.so
 vendor/lib64/libarcsoft_torch_portrait_night.so
 vendor/lib64/libc++_shared.so
@@ -973,7 +970,6 @@ vendor/lib64/libcamalgo.utility.so
 vendor/lib64/libcamalgo.vaidepth.so
 vendor/lib64/libcamalgo.vsf.so
 vendor/lib64/libcamalgo.warp.so
-
 vendor/lib64/libcamdrv_imem.so
 vendor/lib64/libcamdrv_isp.so
 vendor/lib64/libcamdrv_tuning_mgr.so
@@ -988,9 +984,6 @@ vendor/lib64/libdip_imem.so
 vendor/lib64/libdip_postproc.so
 vendor/lib64/libeffect_hal.so
 vendor/lib64/libeffecthal.base.so
-vendor/lib64/libeffectproxy.so
-vendor/lib64/libeffects.so
-vendor/lib64/libeffectsconfig.so
 vendor/lib64/libeyedetector.so
 vendor/lib64/libfacesattribute.so
 vendor/lib64/libfeature.face.so
@@ -1101,7 +1094,6 @@ vendor/lib64/libtranslator_mdmi_v2.8.2.so
 vendor/lib64/libtranslator_utils.so
 vendor/lib64/libtranssion_bodybeauty.so
 vendor/lib64/libtranssion_cal.so
-vendor/lib64/libtran_sensorhub_oismgr.so
 vendor/lib64/libvideofilter_cl_64.so
 vendor/lib64/libwa_depth.so
 vendor/lib64/libwa_dof.so
@@ -2999,8 +2991,8 @@ system/lib64/libvcodec_cap.so
 system/lib64/libvcodec_capenc.so
 system/lib64/libvt_avsync.so
 system/priv-app/ImsService/ImsService.apk
-system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+system/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
+system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Secure element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
